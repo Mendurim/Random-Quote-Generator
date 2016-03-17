@@ -1,5 +1,5 @@
 body {
-	background-color: #888; 
+	background-color: #bfb55d; 
 }
 
 .quote-box{
@@ -32,10 +32,22 @@ body {
 }
 
 .btn-default {
+ 	 
  	float: left;   
 }
 
-
+.quote-box .buttons #tweet-quote.button {
+	float:left;
+	padding: 10px;
+	padding-top: 5px;
+	text-align: center; 
+	font-size: 1.2em; 
+	margin-right: 5px; 
+	/*height: 34px;
+	width: */40px;
+	
+	 
+}
 
 footer {
 	width: 400px; 
