@@ -9,17 +9,6 @@ body {
 	padding: 40px 50px;
 	display: table; 
 	background-color: #999; 
-
-	/*font-size: 25px; 
-	width: 800px;
-	height: 300px;
-	margin: 0 auto; 
-	margin-top: 200px;
-	border: solid 2px #000; 
-	text-align: center;
-	padding: 5px;
-	padding-top: 10px;  
-	border-radius: 10px;  */
 }
 
 #quoteText{
@@ -43,8 +32,8 @@ body {
 	text-align: center; 
 	font-size: 1.2em; 
 	margin-right: 5px; 
-	/*height: 34px;
-	width: */40px;
+	height: 34px;
+	width: 40px;
 	
 	 
 }
