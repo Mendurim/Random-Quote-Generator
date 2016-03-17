@@ -1,0 +1,44 @@
+body {
+	background-color: #888; 
+}
+
+.quote-box{
+	border-radius: 5px; 
+	position: relative;
+	margin: 8% auto auto auto;
+	padding: 40px 50px;
+	display: table; 
+	background-color: #999; 
+
+	/*font-size: 25px; 
+	width: 800px;
+	height: 300px;
+	margin: 0 auto; 
+	margin-top: 200px;
+	border: solid 2px #000; 
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;  
+	border-radius: 10px;  */
+}
+
+#quoteText{
+	font-size: 16px; 
+
+}
+
+.quote-Author {
+	margin: 0;
+}
+
+.btn-default {
+ 	float: left;   
+}
+
+
+
+footer {
+	width: 400px; 
+	margin: 0 auto;
+	text-align: center; 
+}
