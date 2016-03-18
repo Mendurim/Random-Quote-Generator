@@ -28,14 +28,19 @@ body {
 .quote-box .buttons #tweet-quote.button {
 	float:left;
 	padding: 10px;
-	padding-top: 5px;
+	/*padding-top: 5px;
 	text-align: center; 
-	font-size: 1.2em; 
+	font-size: 1.9em; 
 	margin-right: 5px; 
-	height: 34px;
+	*//*height: 34px;
 	width: 40px;
-	
-	 
+	*/
+}
+
+.fa.fa-twitter-square.fa-lg{
+	height: 35px;
+	width: 35px;
+	position: center; 
 }
 
 footer {
