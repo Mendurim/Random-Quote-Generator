@@ -1,6 +1,8 @@
 $(document).ready(function(){
-	
+	$('.btn').click(function(){
 	$('#quoteText').append("<DL>\n" + "<DT>" + "\"" + quotes[index] + "\"</DT>\n" + "<DD>\t\t\t" + "-- " + authors[index] + "</DT>\n" +  "</DL>\n"); 
+	$('#quoteText').trigger('reset'); 	
+	}); 
 }); 
 
 
