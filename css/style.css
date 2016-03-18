@@ -7,8 +7,10 @@ body {
 	position: relative;
 	margin: 8% auto auto auto;
 	padding: 40px 50px;
-	display: table; 
+	/*display: table;*/ 
 	background-color: #999; 
+	width: 55%;
+
 }
 
 #quoteText{
@@ -21,26 +23,15 @@ body {
 }
 
 .btn-default {
- 	 
- 	float: left;   
+ 	 float: right;
+ 	 /*width: 29%;*/
+
 }
 
-.quote-box .buttons #tweet-quote.button {
-	float:left;
-	padding: 10px;
-	/*padding-top: 5px;
-	text-align: center; 
-	font-size: 1.9em; 
-	margin-right: 5px; 
-	*//*height: 34px;
-	width: 40px;
-	*/
-}
-
-.fa.fa-twitter-square.fa-lg{
-	height: 35px;
-	width: 35px;
-	position: center; 
+.fa.fa-twitter-square.fa-lg {
+	font-size: 2.6em; 
+	line-height: 1em;
+	vertical-align: -13%; 
 }
 
 footer {
