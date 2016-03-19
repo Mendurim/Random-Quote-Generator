@@ -1,41 +1,72 @@
-body {
-	background-color: #bfb55d; 
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #000;
 }
 
-.quote-box{
-	border-radius: 5px; 
-	position: relative;
-	margin: 8% auto auto auto;
-	padding: 40px 50px;
-	/*display: table;*/ 
-	background-color: #999; 
-	width: 55%;
-
+#container{
+  margin-top: 100px; 
+  width:800px;
+  margin:50px auto;
+  padding: 20px;
+  width:50%;
+  border-radius: 10px; 
+  background-color: #fff; 
+  border: 2px solid #019;
+  box-shadow: 10px 10px 5px #888888; 
 }
-
-#quoteText{
-	font-size: 16px; 
-
-}
-
-.quote-Author {
-	margin: 0;
-}
-
-.btn-default {
- 	 float: right;
- 	 /*width: 29%;*/
+#container h2{
+  text-align:center;
+  color:#045;
 
 }
 
-.fa.fa-twitter-square.fa-lg {
-	font-size: 2.6em; 
-	line-height: 1em;
-	vertical-align: -13%; 
+#quoteContainer{
+  border-radius: 10px; 
+  width:75%;
+  background: #fff;
+  padding:10px;
+  margin:30px auto;
+  text-align: center;
+  height:70px;
+}
+#buttonContainer{
+  width: 100%;
+  text-align: center;
+}
+#quoteButton{
+  width:30%;
+  margin-top: 10px;
+  border:2px solid #46b8da;
+  color:#045;
+  font-family: inherit;
+  font-weight: bold;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
 }
 
-footer {
-	width: 400px; 
-	margin: 0 auto;
-	text-align: center; 
+#quoteButton:hover{
+  cursor:pointer;
+  background:#09c;
+  color: #fff;  
+}
+#quoteButton:active{
+  cursor: pointer;
+}
+#quoteButton{
+  display: inline-block;
+  border-radius: 10px; 
+}
+#quoteAuthor{
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+  #quoteButton,#addNew{
+    display: inline-block;
+  }
 }
