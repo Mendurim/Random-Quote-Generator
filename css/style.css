@@ -6,9 +6,9 @@ body{
 #container{
   margin-top: 100px; 
   width:800px;
-  margin:50px auto;
-  padding: 20px;
-  width:50%;
+  margin:40px auto;
+  padding: 60px;
+  width:70%;
   border-radius: 10px; 
   background-color: #fff; 
   border: 2px solid #019;
@@ -24,10 +24,11 @@ body{
   border-radius: 10px; 
   width:75%;
   background: #fff;
-  padding:10px;
-  margin:30px auto;
+  padding:5px;
+  margin:40px auto;
   text-align: center;
-  height:70px;
+  height:80px;
+  font-size: 18px; 
 }
 #buttonContainer{
   width: 100%;
@@ -35,12 +36,12 @@ body{
 }
 #quoteButton{
   width:30%;
-  margin-top: 10px;
+  margin-top: 10px auto;
   border:2px solid #46b8da;
   color:#045;
   font-family: inherit;
   font-weight: bold;
-  padding:5px;
+  padding:8px;
   text-decoration: none;
   text-align: center;
 }
@@ -54,13 +55,20 @@ body{
   cursor: pointer;
 }
 #quoteButton{
-  display: inline-block;
+  float:right;
+  /*display: inline-block;*/
   border-radius: 10px; 
 }
 #quoteAuthor{
   font-style: italic;
   font-weight: 600;
   text-align: center;
+}
+
+.fa.fa-twitter-square.fa-3x{
+ float: left; 
+ width:10% ;
+   
 }
 
 
