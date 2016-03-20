@@ -18,7 +18,12 @@
 			</div><!--end quoteContainer-->
 			
 			<div id="buttonContainer">
-				<a><i class="fa fa-twitter-square fa-3x"></i></a>
+				 <a id="link" href="https://twitter.com/share" class="fa fa-twitter-square fa-3x" data-via="Mendurim" data-text=""></a>
+					<script>
+						var element = documentGetById("#link");
+	 					element.setAtrribute("data-text", element.getAttribute("data-text") + quote + author); 
+					</script>
+				</a>
 				<a href="#" id="quoteButton">New Quote</a>
 			</div><!--end buttonContainer-->
 
