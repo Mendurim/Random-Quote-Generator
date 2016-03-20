@@ -68,10 +68,8 @@ body{
 .fa.fa-twitter-square.fa-3x{
  float: left; 
  width:10% ;
-   
+  
 }
-
-
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
   #quoteButton,#addNew{
