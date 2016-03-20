@@ -55,9 +55,9 @@
   		}
 
 	  	function changeBackground(){
-		    var colorR = generateRandomNum(0,250);
-		    var colorG = generateRandomNum(200,250);
-		    var colorB = generateRandomNum(200,250);
+		    var colorR = generateRandomNum(50,150);
+		    var colorG = generateRandomNum(50,100);
+		    var colorB = generateRandomNum(72,80);
 		    var colorA = generateRandomNum(2,4);
 
 
@@ -65,6 +65,9 @@
 		    $("#quoteButton").css("background-color","rgba("+ colorR + "," + colorG + "," + colorB + "," + colorA + ")").fadeIn(timeAnimation);
 
 	 	}
+
+	 	
+	 		
 
 	});//end quoteButton function
 		
