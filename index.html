@@ -7,7 +7,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 </head>
 <body>
 	<div id="container">
@@ -18,16 +17,9 @@
 			</div><!--end quoteContainer-->
 			
 			<div id="buttonContainer">
-				 <a id="link" href="https://twitter.com/share" class="fa fa-twitter-square fa-3x" data-via="Mendurim" data-text=""></a>
-					<script>
-						var element = documentGetById("#link");
-	 					element.setAtrribute("data-text", element.getAttribute("data-text") + quote + author); 
-					</script>
-				</a>
+				 <a id="link" href="https://twitter.com/intent/tweet" class="fa fa-twitter-square fa-3x" data-via="Mendurim" data-text=""></a>	
 				<a href="#" id="quoteButton">New Quote</a>
 			</div><!--end buttonContainer-->
-
-
 	</div><!--end container-->
 	<script src="js/script.js" type="text/javascript"></script>
 </body>
